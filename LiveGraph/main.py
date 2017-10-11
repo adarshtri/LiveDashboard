@@ -1,4 +1,4 @@
-`from bokeh.io import curdoc
+from bokeh.io import curdoc
 from bokeh.models import ColumnDataSource
 from bokeh.plotting import figure
 import numpy as np

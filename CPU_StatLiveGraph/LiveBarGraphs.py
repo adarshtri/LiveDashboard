@@ -5,17 +5,16 @@ from bokeh.client import push_session
 import numpy as np
 
 currency = ['INR', 'USD', 'YEN']
-value = [0, 0, 0]
+value = [10, 10, 10]
 
 p = figure(x_range=currency, sizing_mode='stretch_both', title='Currency Monitor',
-           toolbar_location=None, tools="")
+           toolbar_location=None, tools="", y_axis_location='right')
 
 
 def update_data():
     global value, currency
-    value = []
-    for _ in range(3):
-        value.append(np.random.randint(0, 100))
+    for i in range(3):
+        value[i] += np.random.randint(0, 100)
     new_data = dict(currency=currency, value=value)
     print(new_data)
     source.stream(new_data, 3)

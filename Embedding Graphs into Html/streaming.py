@@ -8,9 +8,13 @@ import json
 
 currency = ['INR', 'USD', 'YEN']
 value = [10, 10, 10]
+#sizing_mode='stretch_both'
+#plot_width=400, plot_height=400
+#, plot_width=400, plot_height=400, sizing_mode='fixed'
+#, tools=""
 
-p = figure(x_range=currency, sizing_mode='stretch_both', title='Currency Monitor',
-           toolbar_location=None, tools="", y_axis_location='right')
+p = figure(x_range=currency, title='Currency Monitor',
+           toolbar_location='right',sizing_mode='stretch_both', y_axis_location='right')
 
 
 def update_data():
@@ -56,8 +60,9 @@ string_after = '''</body>
 </html>'''
 
 html = open('live-graph.html', 'w')
-html.write(string_before+"\n"+script+string_middle+"\n"+div+"\n"+string_after)
+#html.write(string_before+"\n"+script+string_middle+"\n"+div+"\n"+string_after)
+html.write("<body>"+script+"</body>")
 html.close()
 
 session.loop_until_closed(suppress_warning='Stop the python execution.')
-
+#sizing_mode='stretch_both'

@@ -19,13 +19,14 @@ def update_data():
     time = time[1:]
     date = datetime.datetime.now()
     time.append(date)
-    value.append(v1+np.random.randint(0,5))
+    value.append(v1+np.random.randint(0,100))
     new_data = dict(time=time,value=value)
     print(new_data)
     source.stream(new_data,3600)
 
 
 fig = figure(sizing_mode='stretch_both', x_axis_type='datetime')
+fig.yaxis.major_label_orientation='vertical'
 
 fig.line(source=source, x='time', y='value', line_width=2)
 

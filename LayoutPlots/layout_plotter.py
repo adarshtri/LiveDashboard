@@ -5,6 +5,7 @@ from bokeh.models import ColumnDataSource
 from bokeh.client import push_session
 import numpy as np
 import datetime
+from bokeh.models import HoverTool
 
 currency = ['INR','USD','YEN']
 value1 = [10, 7, 9]
@@ -50,6 +51,11 @@ def update_data():
     source4.stream(new_data4,720)
 
 
+hover = HoverTool(tooltips=[
+    ("No. of calls", "$y"),
+
+])
+
 p1 = figure(x_range=currency, sizing_mode='fixed', title='Currency Monitor',
             toolbar_location=None, tools="")
 p1.yaxis.major_label_orientation='vertical'
@@ -69,7 +75,7 @@ p3.circle(source=source3,x='value3',y='oil_price',line_width=10)
 p3.segment(source=source3,x0='x0',y0='y0',x1='value3',y1='oil_price',line_width=1)
 
 p4 = figure(sizing_mode='stretch_both', x_axis_type='datetime',
-             toolbar_location=None, tools='', title='Call Flow Live Data',)
+             toolbar_location=None, tools=[hover], title='Call Flow Live Data',)
 p4.yaxis.major_label_orientation='vertical'
 
 p4.line(source=source4, x='time', y='value4', line_width=2)

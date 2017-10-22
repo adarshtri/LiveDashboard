@@ -52,7 +52,7 @@ public class SimpleProducer {
 
         while(true){
             String input = s.nextLine();
-            if(input=="exit"){
+            if(input=="exit") {
                 break;
             }
             producer.send(new ProducerRecord<>(topicName,Integer.toString(1),input));

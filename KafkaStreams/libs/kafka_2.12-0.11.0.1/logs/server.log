@@ -546,3 +546,4 @@ EndOfStreamException: Unable to read additional data from client sessionid 0x15f
 [2017-10-29 01:24:39,002] INFO Processed session termination for sessionid: 0x15f648a1f440002 (org.apache.zookeeper.server.PrepRequestProcessor)
 [2017-10-29 01:24:39,002] INFO Processed session termination for sessionid: 0x15f648a1f440001 (org.apache.zookeeper.server.PrepRequestProcessor)
 [2017-10-29 01:31:55,441] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-10-29 01:41:55,441] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

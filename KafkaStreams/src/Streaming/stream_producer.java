@@ -36,6 +36,7 @@ public class stream_producer {
         }
         System.out.println("Total Messages sent:"+Integer.toString(i));
         producer.close();
+        
     }
 
 }

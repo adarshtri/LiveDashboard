@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20480703-97fc-422e-b2d4-ad9007c4e842" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Streaming/stream_producer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Streaming/test1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/zookeeper-gc.log.0.current" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/zookeeper-gc.log.0.current" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/controller.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/controller.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/kafkaServer-gc.log.0.current" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/kafkaServer-gc.log.0.current" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/log-cleaner.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/log-cleaner.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/state-change.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/state-change.log" />
-    </list>
+    <list default="true" id="20480703-97fc-422e-b2d4-ad9007c4e842" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

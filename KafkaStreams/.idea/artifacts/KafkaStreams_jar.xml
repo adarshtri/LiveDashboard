@@ -1,0 +1,76 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KafkaStreams:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KafkaStreams_jar</output-path>
+    <root id="archive" name="KafkaStreams.jar">
+      <element id="module-output" name="KafkaStreams" />
+      <element id="dir-copy" path="$PROJECT_DIR$/libs" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/lz4-1.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/guava-20.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/zkclient-0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/javax.inject-1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/argparse4j-0.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/rocksdbjni-5.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/zookeeper-3.4.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/commons-lang3-3.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/hk2-api-2.5.0-b05.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jersey-guava-2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jopt-simple-5.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jackson-core-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jersey-client-2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jersey-common-2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jersey-server-2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/metrics-core-2.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/reflections-0.9.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/hk2-utils-2.5.0-b05.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/javassist-3.21.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka_2.12-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/plexus-utils-3.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/snappy-java-1.1.2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/connect-api-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka-tools-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/maven-artifact-3.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/scala-library-2.12.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/slf4j-log4j12-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/connect-file-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/connect-json-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/hk2-locator-2.5.0-b05.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/javax.ws.rs-api-2.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jackson-databind-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/javax.inject-2.5.0-b05.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jersey-media-jaxb-2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka-clients-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka-streams-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/javax.servlet-api-3.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/connect-runtime-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jackson-jaxrs-base-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/javax.annotation-api-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka_2.12-0.11.0.1-test.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jackson-annotations-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-io-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/validation-api-1.1.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/connect-transforms-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-http-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-util-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka_2.12-0.11.0.1-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka_2.12-0.11.0.1-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/osgi-resource-locator-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka_2.12-0.11.0.1-scaladoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jersey-container-servlet-2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-server-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka-log4j-appender-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-servlet-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-security-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-servlets-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka-streams-examples-0.11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/aopalliance-repackaged-2.5.0-b05.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/kafka_2.12-0.11.0.1-test-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jackson-jaxrs-json-provider-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jersey-container-servlet-core-2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jetty-continuation-9.2.15.v20160210.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/scala-parser-combinators_2.12-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/libs/jackson-module-jaxb-annotations-2.8.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

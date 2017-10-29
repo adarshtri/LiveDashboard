@@ -10,7 +10,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 import java.util.Scanner;
 
-public class stream_producer {
+public class StreamProducer {
 
     private final static String BOOTSTRAP_SERVERS = "localhost:9092";
 
@@ -36,7 +36,7 @@ public class stream_producer {
         }
         System.out.println("Total Messages sent:"+Integer.toString(i));
         producer.close();
-        
+
     }
 
 }

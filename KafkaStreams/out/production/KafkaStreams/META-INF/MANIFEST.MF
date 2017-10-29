@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: Streaming.stream_producer
+Main-Class: Streaming.StreamProducer
 

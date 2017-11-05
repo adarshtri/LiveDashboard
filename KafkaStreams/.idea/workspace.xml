@@ -7,22 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20480703-97fc-422e-b2d4-ad9007c4e842" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StreamsExample.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/KafkaStreams_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KafkaStreams/Streaming/Processor1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KafkaStreams/Streaming/StreamProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Streaming/Processor1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Streaming/StreamProducer.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KafkaStreams.iml" afterPath="$PROJECT_DIR$/KafkaStreams.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/zookeeper-gc.log.0.current" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/zookeeper-gc.log.0.current" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/controller.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/controller.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/kafkaServer-gc.log.0.current" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/kafkaServer-gc.log.0.current" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/log-cleaner.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/log-cleaner.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log.2017-10-29-21" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log.2017-10-29-21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log.2017-10-31-02" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/server.log.2017-10-31-02" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/state-change.log" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/state-change.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/zookeeper-gc.log.0.current" afterPath="$PROJECT_DIR$/libs/kafka_2.12-0.11.0.1/logs/zookeeper-gc.log.0.current" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamsExample.java" afterPath="$PROJECT_DIR$/src/StreamsExample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +32,8 @@
       <file leaf-file-name="StreamsExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StreamsExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="107" column="70" lean-forward="false" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
+            <state relative-caret-position="127">
+              <caret line="120" column="76" lean-forward="false" selection-start-line="120" selection-start-column="58" selection-end-line="120" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +44,8 @@
       <file leaf-file-name="WordCountApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordCountApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="414">
+              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,8 +118,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -160,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +372,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1368" height="741" extended-state="6" />
+    <frame x="10" y="47" width="1368" height="741" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -395,7 +387,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19078948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -418,6 +410,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/StreamsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordCountApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WordCountApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -428,14 +440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamExampler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamExampler.java" />
     <entry file="file://$PROJECT_DIR$/src/WordCountApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -446,14 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamExampler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamExampler.java" />
     <entry file="file://$PROJECT_DIR$/src/Streaming/Processor1.java" />
     <entry file="file://$PROJECT_DIR$/src/Streaming/StreamProducer.java" />
     <entry file="file://$PROJECT_DIR$/src/Streaming/Processor1.java" />
@@ -660,18 +658,11 @@
     <entry file="file://$PROJECT_DIR$/src/Streaming/Processor1.java" />
     <entry file="file://$PROJECT_DIR$/src/Streaming/StreamProducer.java" />
     <entry file="file://$PROJECT_DIR$/src/Streaming/StreamExampler.java" />
-    <entry file="file://$PROJECT_DIR$/src/StreamExampler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamExampler.java" />
     <entry file="file://$PROJECT_DIR$/src/WordCountApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="414">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -680,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StreamsExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="107" column="70" lean-forward="false" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
+        <state relative-caret-position="127">
+          <caret line="120" column="76" lean-forward="false" selection-start-line="120" selection-start-column="58" selection-end-line="120" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

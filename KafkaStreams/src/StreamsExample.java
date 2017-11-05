@@ -23,7 +23,7 @@ public class StreamsExample {
         KStreamBuilder kStreamBuilder = new KStreamBuilder();
         KStream<String,String> kStream = kStreamBuilder.stream("test_topic");
 
-        String to_topic_flag = "selectKey";
+        String to_topic_flag = "groupby";
 
 
         // Branch Operation
@@ -106,6 +106,19 @@ public class StreamsExample {
 
         // table to stream
         // WriteAsText : writes the stream or record to an output file
+
+
+        KTable<String,Long> kTableGroupKey = kStream.groupByKey().count();
+        if(to_topic_flag=="groupbyKey")
+            kTableGroupKey.to(Serdes.String(),Serdes.Long(),"groupbyStream");
+
+
+
+        KTable<String,Long> kTableGroup = kStream.groupBy(
+                (key,value) -> value.toUpperCase()
+        ).count();
+        if(to_topic_flag=="groupby")
+            kTableGroup.to(Serdes.String(),Serdes.Long(),"gorupbyStreamValue");
 
 
         //Run the streaming application
